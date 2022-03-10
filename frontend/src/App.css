@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&family=Reggae+One&family=Rufina&family=Sofia&display=swap');
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+  background-color: #222222!important;
+  width: 100vw;
+  height: 100%;
+  cursor: url('https://img.icons8.com/stickers/30/000000/cat-footprint.png'), auto;
+}
+
+
+a, a:hover, a:focus, a:active{
+  text-decoration: none !important;
+}

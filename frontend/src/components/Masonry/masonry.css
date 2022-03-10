@@ -1,0 +1,51 @@
+.category__title{
+    font-size: 70px;
+    margin-top: 150px;
+    font-family: 'Rufina', serif;
+    text-align: center;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.pin__container{
+    margin: 65px auto;
+    padding: 0;
+    width: 95vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 240px);
+    grid-auto-rows: 10px;
+    justify-content:center;
+}
+
+.pin{
+    margin-top: 200px;
+}
+
+.card{
+    margin: 15px 10px;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 16px;
+}
+
+.size1{
+    grid-row-end: span 17;
+}
+.size2{
+    grid-row-end: span 23;
+}
+.size3{
+    grid-row-end: span 29;
+}
+.size4{
+    grid-row-end: span 35;
+}
+.size5{
+    grid-row-end: span 43;
+}
+
+@media screen and (max-width: 425px) {
+    .pin__container{
+        grid-template-columns: repeat(auto-fill, 300px);
+    }
+}
